@@ -1,0 +1,3 @@
+[submodule "mk2-simulador"]
+	path = mk2-simulador
+	url = https://github.com/Beauchef-Proyecta/mlf-mk2-simulator.git

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Elipse_1" data-name="Elipse 1" class="cls-1" d="M268.5,67C324.005,67,369,121.4,369,188.5S324.005,310,268.5,310,168,255.6,168,188.5,213,67,268.5,67Z"/>
+  <path id="Elipse_2" data-name="Elipse 2" class="cls-1" d="M167,122c53.572,0,97,53.95,97,120.5S220.572,363,167,363,70,309.05,70,242.5,113.428,122,167,122Z"/>
+  <path id="Elipse_3" data-name="Elipse 3" class="cls-1" d="M279.5,186C355.991,186,418,243.084,418,313.5S355.991,441,279.5,441,141,383.916,141,313.5,203.009,186,279.5,186Z"/>
+  <path id="Elipse_4" data-name="Elipse 4" class="cls-1" d="M323.5,24C380.109,24,426,45.938,426,73s-45.891,49-102.5,49S221,100.062,221,73,266.891,24,323.5,24Z"/>
+</svg>
