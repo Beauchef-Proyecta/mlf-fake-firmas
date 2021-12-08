@@ -8,8 +8,8 @@ class svgParam:
         self.dim = dim
         self.ratio = 1 
     
-    def parametrizar(self):   
-        def novem(n):       # funcion auxiliar para asegurar 6 digitos decimales
+    def parametrizadorInador(self):   
+        def seisInador(n):       # funcion auxiliar para asegurar 6 digitos decimales
             s = str(n)
             dot = s.index('.') 
             preDot, postDot = s[:dot+1], s[(dot+1):]
@@ -29,8 +29,8 @@ class svgParam:
                     print(line)
                     xpos, ypos = line.index('X'), line.index('Y')
                     xval, yval = float(line[xpos+1:ypos-1]), float(line[ypos+1:len(line)-2])
-                    paramX = novem(self.x + self.ratio * xval)   # Se aseguran 6 decimales
-                    paramY = novem(self.y + self.ratio * yval)   # Se aseguran 6 decimales
+                    paramX = seisInador(self.x + self.ratio * xval)   # Se aseguran 6 decimales
+                    paramY = seisInador(self.y + self.ratio * yval)   # Se aseguran 6 decimales
                     newG += line[0:xpos] + 'X{} '.format(paramX) + 'Y{} '.format(paramY) + 'Z{};'.format(h) + '\n'
                 else:
                     newG += line
