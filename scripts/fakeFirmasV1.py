@@ -20,7 +20,7 @@ det.save_img('test')
 # Hacemos scp
 
 # Convertimos JPG a SVG de forma manual
-s= raw_input()  # Esperamos el input del usuario para continuar
+s= input()  # Esperamos el input del usuario para continuar
 if s=='1': ack = True
 
 # Hacemos np.inverse(scp)
@@ -32,4 +32,13 @@ if ack:
 else:
     print('la cagaste en algo')
     pass
+
+
+# TODO "
+# Ver el home en gcodeParam
+# Ver el tema del SCP
+# Ver la dimensiones de recorte de la foto
+# Probar que parametrizacion hay que hacer 
+# Llorar"
+
 
