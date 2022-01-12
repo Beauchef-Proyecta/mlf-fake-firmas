@@ -88,8 +88,4 @@ class Detector(object):
         cv.imwrite(path + 'contours4.jpg', self.bkg)
 
 
-path = "/Users/gonzalolguin/Desktop/UCHILE/6to-semestre/EL3201-Exp-electiva/fotos/image4.jpg"
-det = Detector(path)
-det.add_img( [300, 800, 0, 1000] )
-det.extract_contours()
-det.show_imgs()
+
